@@ -50,7 +50,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <Button href="/nos-cafes" variant="secondary" size="lg">
+          <Button href="/nos-cafes" variant="outline" size="lg" className="border-cream text-cream hover:bg-cream hover:text-brown">
             Découvrir nos cafés
           </Button>
           <Button href="/reserver" variant="outline" size="lg" className="border-cream text-cream hover:bg-cream hover:text-brown">
