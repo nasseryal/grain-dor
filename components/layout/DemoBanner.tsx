@@ -2,14 +2,14 @@
 export default function DemoBanner() {
   return (
     <div className="sticky top-0 z-60 bg-forest text-cream text-center py-2 px-4 text-xs font-body tracking-wide">
-      Site fictif — Démonstration portfolio{" "}
+      Site fictif — Modèle de démonstration{" "}
       <a
-        href="https://nasserdine-yalaoui.vercel.app"
+        href="https://www.yalaouidigital.fr/entreprises"
         target="_blank"
         rel="noopener noreferrer"
         className="underline hover:text-sand-light"
       >
-        Nasserdine Yalaoui
+        Yalaoui Digital
       </a>
     </div>
   );
